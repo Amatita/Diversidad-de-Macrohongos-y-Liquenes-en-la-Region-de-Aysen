@@ -172,3 +172,5 @@ plt.show()
 ```
 
 ### Resultados
+El código empleado en Python entregó estadísticas y gráficos que fueron analizados para realizar las conclusiones de la nvestigación. 
+
