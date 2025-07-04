@@ -175,8 +175,10 @@ plt.show()
 El código empleado en Python entregó estadísticas y gráficos que fueron analizados para realizar las conclusiones de la nvestigación. 
 
 **Número de observaciónes en áreas protegidas vs áreas no protegidas, y biodiversidad de familias y especies** 
-![☑️Gráfico](Número_de_observaciones_familias_y_especies.pgn)
+![☑✔️Gráfico](Número_de_observaciones_familias_y_especies.pgn)
 
 **10 Familias más comunes dentro de los registros**
+![✔️Gráfico](familias_mas_comunes.png)
 
-**10 Especies más comunes dentro de los registros**
+**10 Géneros más comunes dentro de los registros**
+![✔️Gráfico](generos_mas_comunes.png)
