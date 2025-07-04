@@ -7,7 +7,7 @@ Pese a todas las importantes labores realizadas por el Reino Fungi, históricame
 ### Hipótesis
 La diversidad de especies de Macrohongos y Líquenes es significativamente mayor en áreas protegidas que en áreas no protegidas, debido a la menor perturbación antropogénica y la conservación de hábitats naturales.  
 ### Objetivos
-sss
+El objetivo principal de este estudio es analizar los diversos tipos de macrohongos y líquenes presentes en la Región de Aysén y establecer una relación entre la Funga existente y las áreas protegidas de la zona. Específicamente, se busca identificar posibles vínculos entre la presencia de estas áreas y la cantidad de avistamientos registrados, así como la biodiversidad de las especies observadas.
 
 ## Base de datos📊
 ### Base de datos original
@@ -35,8 +35,11 @@ localidades_unicas<-unique(bbdd$locality)
 print("Localidades únicas en la base de datos:")
 print(sort(localidades_unicas))
 
-#jajaja increible amazing
-y que pasa si lo escribo asi <--s
+#Definir palabras clave para áreas protegidas.
+palabras_clave_protegidas<- c("Parque Nacional", "Reserva Nacional", "Monumento Natural", "Queulat", "Río Simpson", "Lago Cochrane", "Coyhaique", "Laguna San Rafael", "Dos Lagunas")
+
+#Crear columna binaria es_protegida
+bbdd <- bbdd %>%mutate(es_protegida = ifelse(grepl(paste(palabras_clave_protegidas, collapse = "|"), locality, ignore.case = TRUE), 1,  0 ))
 ```
 
 ### Archivo resultante
