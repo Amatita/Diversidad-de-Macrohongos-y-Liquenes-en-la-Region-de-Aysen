@@ -175,10 +175,19 @@ plt.show()
 El código empleado en Python entregó estadísticas y gráficos que fueron analizados para realizar las conclusiones de la nvestigación. 
 
 **Número de observaciónes en áreas protegidas vs áreas no protegidas, y biodiversidad de familias y especies** 
-![☑✔️Gráfico](Número_de_observaciones_familias_y_especies.pgn)
+![☑✔️Gráfico](observaciones.png)
 
+---
 **10 Familias más comunes dentro de los registros**
 ![✔️Gráfico](familias_mas_comunes.png)
 
+---
 **10 Géneros más comunes dentro de los registros**
 ![✔️Gráfico](generos_mas_comunes.png)
+
+
+### Conclusiones principales.
+- Gracias al análisis de datos y gráficas obtenidos durante el presente trabajo se aprueba la hipótesis planteada en un principio, “La diversidad de especies de macrohongos y líquenes es significativamente mayor en áreas protegidas que en áreas no protegidas, debido a la menor perturbación antropogénica y la conservación de hábitats naturales”. Se pudo evidenciar como cerca de un 64% de los registros fueron realizados específicamente en áreas protegidas de la región de Aysén.
+- Aunque podrían existir sesgos dentro del estudio, se concluye que estos resultados se deben a la importancia de las áreas protegidas dentro del desarrollo de la vida del Reino Fungi, haciéndolas espacios de gran valor para la conservación de la biodiversidad, y convirtiendo a la Región de Aysén en un hotspot de Macrohongos y líquenes.
+- El Reino Fungi es un pilar fundamental para la vida en la tierra, y su importancia es especialmente evidente en regiones como Aysén, donde las condiciones naturales favorecen su diversidad y abundancia.
+- Continuar con el trabajo de investigación y conservación con enfoque en el Reino Fungi es imprescindible, ya que hoy en día no se puede hablar de sustentabilidad y conservación sin hablar de los maravillosos Hongos. 🍄
